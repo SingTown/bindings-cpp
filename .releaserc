@@ -1,6 +1,6 @@
 {
   "branches": [
-    "main",
+    "singtown",
     "next"
   ],
   "plugins": [
@@ -16,7 +16,7 @@
         "assets": [
           {
             "path": "prebuilds-*.tar.gz",
-            "label": "Binary modules (from npm @serialport/bindings-cpp)"
+            "label": "Binary modules (from npm @singtown/bindings-cpp)"
           }
         ]
       }

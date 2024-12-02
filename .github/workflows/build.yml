@@ -2,7 +2,7 @@ name: Build
 on:
   push:
     branches:
-      - main
+      - singtown
       - beta
 concurrency:
   group: build-${{ github.ref }}
